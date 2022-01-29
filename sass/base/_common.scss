@@ -1,0 +1,14 @@
+body {
+  font-family: Roboto, Raleway, sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+.link {
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+.list {
+  list-style: none;
+}
