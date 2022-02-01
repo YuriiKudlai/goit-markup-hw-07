@@ -1,8 +1,7 @@
-.icon-ref-footer {
-  display: flex;
+.icon-social__ref {
   width: 44px;
   height: 44px;
-  align-items: center;
+  @extend %align-list;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
@@ -14,13 +13,13 @@
   }
 }
 
-.icon-team-footer {
+.icon-social__image {
   width: 20px;
   height: 20px;
   fill: var(--primary-white-color);
 }
 
-.footer-attachment {
+.footer-icon__attachment {
   display: block;
   margin-bottom: 20px;
   font-weight: 700;
@@ -32,7 +31,7 @@
   color: var(--primary-white-color);
 }
 
-.logo-container {
+.logo__container {
   .logo {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -40,12 +39,12 @@
   }
 }
 
-.logo-container {
+.logo__container {
   display: flex;
   align-items: baseline;
 }
 
-.footer-item {
+.footer-contacts__item {
   margin-bottom: 9px;
 }
 
@@ -92,7 +91,7 @@
   margin-left: 10px;
 }
 
-.logo-footer {
+.footer-address__logo {
   font-family: Raleway, sans-serif;
   color: var(--accent-color);
   font-weight: bold;
@@ -109,7 +108,7 @@
   padding-bottom: 60px;
 }
 
-.addres {
+.address {
   width: 231px;
   font-style: inherit;
   margin-right: 66px;
@@ -125,7 +124,7 @@
 }
 
 .footer-contacts {
-  .link {
+  .nav__link {
     color: var(--third-text-color);
     font-size: 14px;
     line-height: 1.71;

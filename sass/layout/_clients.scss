@@ -1,6 +1,5 @@
 .icon-clients-container {
-  display: flex;
-  align-items: center;
+  @extend %align-list;
 }
 
 .icon-clients {
@@ -29,8 +28,7 @@
 .clients-container {
   width: 170px;
   height: 92px;
-  display: flex;
-  align-items: center;
+  @extend %align-list;
   justify-content: center;
   border: #afb1b8 solid 1px;
   border-radius: 4px;

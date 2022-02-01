@@ -64,10 +64,8 @@
   top: 8px;
   right: 8px;
 
-  display: flex;
   justify-content: center;
-  align-items: center;
-
+  @extend %align-list;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--primary-white-color);
@@ -149,9 +147,8 @@
 }
 
 .modal-form-policy {
-  display: flex;
+  @extend %align-list;
   justify-content: center;
-  align-items: center;
 
   margin-bottom: 30px;
   font-family: Roboto;
