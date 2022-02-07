@@ -25,6 +25,9 @@
   }
 }
 
+.icon-social__item .icon-flex:not(:last-child) {
+  margin-right: 10px;
+}
 .icon-social__item {
   @extend %align-list;
 }

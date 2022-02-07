@@ -11,18 +11,18 @@
   @extend %align-list;
 }
 
-.nav {
+.head-nav {
   display: flex;
 }
 
-.nav {
-  .nav__item:not(:last-child) {
+.head-nav {
+  .head-nav__item:not(:last-child) {
     margin-right: 50px;
   }
 }
 
-.nav {
-  .nav__link {
+.head-nav {
+  .head-nav__link {
     color: var(--primary-text-color);
     @include font(500, 14px, 1.14, 0.02em);
 
@@ -37,7 +37,7 @@
   }
 }
 
-.nav__link.current {
+.head-nav__link.current {
   &::after {
     content: " ";
     display: block;
