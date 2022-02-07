@@ -416,35 +416,23 @@ textarea {
 }
 
 .icon-envelope {
-  fill: var(--secondary-text-color);
+  fill: currentColor;
   width: 16px;
   height: 12px;
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-envelope:hover, .icon-envelope:focus {
-  fill: var(--accent-color);
-}
-
 .icon-smartphone {
+  fill: currentColor;
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill: var(--secondary-text-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.icon-smartphone:hover, .icon-smartphone:focus {
-  fill: var(--accent-color);
 }
 
 .icon-header {
   display: flex;
-}
-
-.icon-header:hover, .icon-header:focus {
-  fill: var(--accent-color);
 }
 
 .header-contacts .nav__item:not(:last-child) {

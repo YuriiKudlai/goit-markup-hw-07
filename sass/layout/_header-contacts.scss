@@ -1,34 +1,36 @@
 .icon-envelope {
-  fill: var(--secondary-text-color);
+  fill: currentColor;
+  // fill: var(--secondary-text-color);
   width: 16px;
   height: 12px;
   margin-right: 10px;
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    fill: var(--accent-color);
-  }
+  // &:hover,
+  // &:focus {
+  //   fill: var(currentColor);
+  // }
 }
 
 .icon-smartphone {
+  fill: currentColor;
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill: var(--secondary-text-color);
+  // fill: var(--secondary-text-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    fill: var(--accent-color);
-  }
+  // &:hover,
+  // &:focus {
+  //   fill: var(--accent-color);
+  // }
 }
 
 .icon-header {
   display: flex;
-  &:hover,
-  &:focus {
-    fill: var(--accent-color);
-  }
+  // &:hover,
+  // &:focus {
+  //   fill: var(--accent-color);
+  // }
 }
 
 .header-contacts {
